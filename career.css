@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+#company-culture, #job-openings {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#company-culture h2, #job-openings h2 {
+    color: #333;
+    font-size: 2em;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+
+#company-culture p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+#company-culture ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#company-culture ul li {
+    background-color: #e7f4e4;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #4CAF50;
+}
+
+.job {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.job h3 {
+    color: #4CAF50;
+}
+
+.job p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.job button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.job button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
